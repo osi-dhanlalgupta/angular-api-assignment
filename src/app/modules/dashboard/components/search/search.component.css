@@ -1,0 +1,20 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 5px;
+  min-width: 250px;
+}
+
+
+.search-container input {
+  width: 100%;
+}
+
+/* @media (max-width: 768px) {
+  .search-container {
+    width: 100%; 
+    justify-content: center;
+    align-items: center;
+  }
+} */

@@ -1,0 +1,10 @@
+<div class="dropdown-container">
+  <p-dropdown
+    [options]="options"
+    [(ngModel)]="selectedOption"
+    optionLabel="name"
+    [placeholder]="placeholder"
+    (onChange)="onSelect($event)"
+    [style]="{ width: '100%' }"
+  />
+</div>
