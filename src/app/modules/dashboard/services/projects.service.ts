@@ -12,5 +12,8 @@ export class ProjectsService {
   private apiUrl = environment.apiUrl;
 
   constructor(private http: HttpClient) { }
+  getProject(id: any):Observable<Projects[]>{
+    return this.http.get<Projects[]>(`https://my-json-server.typicode.com/praveencastelino/demo/projects/${id}`)
+  }
   
 }
